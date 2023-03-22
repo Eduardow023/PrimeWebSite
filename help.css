@@ -1,0 +1,44 @@
+.layouthelp{
+    display: grid;
+    grid-template: 30px 30px / 1fr 1fr ;
+    background-color: blue;
+    border: 1px dashed #1E96FF;
+    gap: 5px 5px;
+}
+.layouthel-item{
+    background-color: #1E96FF;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 2px;
+}
+.gridcs{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-areas: "cable  cable cable cable"" brabox balanga balanga balanga" "brabox barga barga button " "carlb carlb carlb carlb";
+    justify-content: stretch;
+    align-items: stretch;
+}
+.item{
+    background-color: #1E96FF;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+.cable{
+    grid-area: cable;
+}
+.brabox{
+    grid-area: brabox;
+}
+.barga{
+    grid-area: barga;
+}
+.balanga{
+    grid-area: balanga;
+}
+.carlb{
+    grid-area: carlb;
+}
+.button{
+    grid-area: button;
+}

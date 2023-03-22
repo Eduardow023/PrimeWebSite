@@ -1,0 +1,54 @@
+h1 {
+    height: 40px;
+    border-radius: 6px;
+    border: solid 6px;
+    padding-bottom: 0,5px;
+    padding-left: 0px;
+    padding-top: 0,5px;
+    text-align:center;
+}
+.yupsiacss{
+    color:red
+}
+img {
+    height: 300px;
+    border-radius: 100px;
+    border: solid 6px;
+    margin-left: 15px;
+    padding: 0 0 0 0;
+    transform: rotate(0deg) ;
+    filter:brightness(110%) saturate(200%);
+}
+.sapocss{
+ background: linear-gradient()
+}
+.imgklz{
+    float: right;
+    width: 40%;
+    
+}
+.robotcontainer{
+    
+    display: flex;
+    z-index: -1;
+
+}
+.whatrobot{
+    position: relative;
+    z-index: 1;
+    left: 400px ;
+    top:85px;
+    border: solid 2px;
+    
+}
+.containerbutons{
+    border: solid 2px;
+    display: flex;
+    justify-content:row;
+}
+.buttonsconf{
+    border: solid 2px;
+    margin: 10px;
+    flex: 0 1 100px;
+    
+}
